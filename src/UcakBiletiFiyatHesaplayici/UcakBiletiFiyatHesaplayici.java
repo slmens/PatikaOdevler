@@ -25,7 +25,7 @@ public class UcakBiletiFiyatHesaplayici {
         total = mesafe * mesafeBasinaUcret;
 
         if ((mesafe > 0) && (yas > 0) && ((yolculukTipi == 1) || (yolculukTipi == 2))){
-
+            //İlk kontrol
 
             System.out.println("Teşekkür ederim. Hemen bilet fiyatınızı hesaplıyorum...");
 
@@ -49,6 +49,7 @@ public class UcakBiletiFiyatHesaplayici {
 
             System.out.printf("Bilet fiyatınız: %s TL'dir",indirimliTotal);
         }else {
+            // Hata durumunda buraya giriyor
             System.out.println("Hatalı bilgi girdiniz tekrar deneyin.");
             System.out.print("Fiyat hesaplayıcıya hoşgeldiniz. Lütfen gitmek istediğiniz mesafeyi km türünden giriniz: ");
             mesafe = input.nextInt();
@@ -62,7 +63,7 @@ public class UcakBiletiFiyatHesaplayici {
             total = mesafe * mesafeBasinaUcret;
 
             if ((mesafe > 0) && (yas > 0) && ((yolculukTipi == 1) || (yolculukTipi == 2))) {
-
+                // İkinci Kontrol
                 System.out.println("Teşekkür ederim. Hemen bilet fiyatınızı hesaplıyorum...");
 
                 Thread.sleep(2000);
@@ -86,6 +87,7 @@ public class UcakBiletiFiyatHesaplayici {
                 System.out.printf("Bilet fiyatınız: %s TL'dir", indirimliTotal);
 
             }else {
+                //Hata durumunda kapanıyor
                 System.out.println("Yine hatalı bilgi girdiniz. Güvenlik sebebiyle sistem kapatılıyor...");
                 System.exit(0);
             }
