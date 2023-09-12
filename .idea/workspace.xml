@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf0434a3-aaeb-4c6b-965b-f59c6e59ef05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PatikaOdev.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UcakBiletiFiyatHesaplayici/UcakBiletiFiyatHesaplayici.java" afterDir="false" />
+    <list default="true" id="bf0434a3-aaeb-4c6b-965b-f59c6e59ef05" name="Changes" comment="Bilet fiyatı hesaplayıcı programını yazdım">
+      <change beforePath="$PROJECT_DIR$/src/UcakBiletiFiyatHesaplayici/UcakBiletiFiyatHesaplayici.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UcakBiletiFiyatHesaplayici/UcakBiletiFiyatHesaplayici.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +35,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "main"
   }
 }]]></component>
   <component name="RunManager">
@@ -73,6 +67,54 @@
       <option name="presentableId" value="Default" />
       <updated>1694544676912</updated>
     </task>
+    <task id="LOCAL-00001" summary="Bilet fiyatı hesaplayıcı programını yazdım">
+      <option name="closed" value="true" />
+      <created>1694547953367</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694547953367</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Bilet fiyatı hesaplayıcı programını yazdım">
+      <option name="closed" value="true" />
+      <created>1694547964613</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694547964613</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Bilet fiyatı hesaplayıcı programını yazdım">
+      <option name="closed" value="true" />
+      <created>1694547969001</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694547969001</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Bilet fiyatı hesaplayıcı programını yazdım">
+      <option name="closed" value="true" />
+      <created>1694547981709</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694547981709</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Bilet fiyatı hesaplayıcı programını yazdım" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bilet fiyatı hesaplayıcı programını yazdım" />
   </component>
 </project>
