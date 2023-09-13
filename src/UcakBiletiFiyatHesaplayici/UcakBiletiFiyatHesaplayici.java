@@ -25,7 +25,7 @@ public class UcakBiletiFiyatHesaplayici {
         total = mesafe * mesafeBasinaUcret;
 
         if ((mesafe > 0) && (yas > 0) && ((yolculukTipi == 1) || (yolculukTipi == 2))){
-            //İlk kontrol
+            // İlk kontrol
 
             System.out.println("Teşekkür ederim. Hemen bilet fiyatınızı hesaplıyorum...");
 
