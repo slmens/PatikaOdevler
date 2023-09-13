@@ -1,5 +1,6 @@
 package CinZodyagiHesaplamaProgrami;
 import java.util.Scanner;
+
 public class CinZodyagiHesaplayici {
     public static void main(String[] args) throws InterruptedException {
         Scanner input = new Scanner(System.in);
@@ -15,7 +16,7 @@ public class CinZodyagiHesaplayici {
 
         int kalan = dogumYili % 12;
 
-
+        //Switch zodyağınızı hesaplayacak
         switch (kalan) {
             case 0 -> zodyak = "Maymun";
             case 1 -> zodyak = "Horoz";
@@ -31,6 +32,7 @@ public class CinZodyagiHesaplayici {
             case 11 -> zodyak = "koyun";
         }
 
+        // Bu sayede tek bir print metodu kullanarak, görüntü kirliliğini azalttım.
         System.out.println("Sizin çin zodyağınız "+zodyak);
     }
 }
