@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf0434a3-aaeb-4c6b-965b-f59c6e59ef05" name="Changes" comment="Bilet fiyatı hesaplayıcı programını değiştirdim">
-      <change afterPath="$PROJECT_DIR$/src/CinZodyagıHesaplamaProgramı/CinZodyagıHesaplayıcı.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="bf0434a3-aaeb-4c6b-965b-f59c6e59ef05" name="Changes" comment="Doğum yılından çin zodyağı hesaplayıcı programı yaptım.">
+      <change beforePath="$PROJECT_DIR$/src/CinZodyagiHesaplamaProgrami/CinZodyagiHesaplayici.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CinZodyagiHesaplamaProgrami/CinZodyagiHesaplayici.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CinZodyagıHesaplamaProgramı/CinZodyagıHesaplayıcı.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,20 +32,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main"
   }
-}</component>
-  <component name="RunManager" selected="Application.CinZodyagıHesaplayıcı">
-    <configuration name="CinZodyagıHesaplayıcı" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CinZodyagıHesaplamaProgramı.CinZodyagıHesaplayıcı" />
+}]]></component>
+  <component name="RunManager" selected="Application.CinZodyagiHesaplayici">
+    <configuration name="CinZodyagiHesaplayici" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CinZodyagiHesaplamaProgrami.CinZodyagiHesaplayici" />
       <module name="PatikaOdev" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CinZodyagıHesaplamaProgramı.*" />
+          <option name="PATTERN" value="CinZodyagiHesaplamaProgrami.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,7 +68,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CinZodyagıHesaplayıcı" />
+        <item itemvalue="Application.CinZodyagiHesaplayici" />
         <item itemvalue="Application.UcakBiletiFiyatHesaplayici" />
       </list>
     </recent_temporary>
@@ -90,11 +90,20 @@
       <option name="project" value="LOCAL" />
       <updated>1694548504894</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Doğum yılından çin zodyağı hesaplayıcı programı yaptım.">
+      <option name="closed" value="true" />
+      <created>1694592362998</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694592362998</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Bilet fiyatı hesaplayıcı programını değiştirdim" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bilet fiyatı hesaplayıcı programını değiştirdim" />
+    <MESSAGE value="Doğum yılından çin zodyağı hesaplayıcı programı yaptım." />
+    <option name="LAST_COMMIT_MESSAGE" value="Doğum yılından çin zodyağı hesaplayıcı programı yaptım." />
   </component>
 </project>
