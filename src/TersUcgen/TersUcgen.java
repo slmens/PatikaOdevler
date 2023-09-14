@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class TersUcgen {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int basamakSayisi,counter = 0;
+        int basamakSayisi = 0;
 
         System.out.print("Yapmak istediğiniz yıldızın kaç basamaklı olacağını giriniz: ");
         basamakSayisi = input.nextInt();
