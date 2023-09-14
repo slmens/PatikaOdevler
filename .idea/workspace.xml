@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf0434a3-aaeb-4c6b-965b-f59c6e59ef05" name="Changes" comment="Ters üçgen yapan program">
-      <change afterPath="$PROJECT_DIR$/src/MukemmelSayi/MukemmelSayi.java" afterDir="false" />
+    <list default="true" id="bf0434a3-aaeb-4c6b-965b-f59c6e59ef05" name="Changes" comment="Girilen sayının mükemmel sayı olup olmadığını bulan program">
+      <change beforePath="$PROJECT_DIR$/src/TersUcgen/TersUcgen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TersUcgen/TersUcgen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,14 +170,34 @@
       <option name="project" value="LOCAL" />
       <updated>1694681998234</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Girilen sayının mükemmel sayı olup olmadığını bulan program">
+      <option name="closed" value="true" />
+      <created>1694683241033</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694683241033</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Bilet fiyatı hesaplayıcı programını değiştirdim" />
     <MESSAGE value="Doğum yılından çin zodyağı hesaplayıcı programı yaptım." />
     <MESSAGE value="Verilen sayılar içerisindeki en büyük ve en küçük değerleri bulan program yazdım" />
     <MESSAGE value="Ters üçgen yapan program" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ters üçgen yapan program" />
+    <MESSAGE value="Girilen sayının mükemmel sayı olup olmadığını bulan program" />
+    <option name="LAST_COMMIT_MESSAGE" value="Girilen sayının mükemmel sayı olup olmadığını bulan program" />
   </component>
 </project>
