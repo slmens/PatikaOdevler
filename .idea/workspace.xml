@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf0434a3-aaeb-4c6b-965b-f59c6e59ef05" name="Changes" comment="Girilen sayının mükemmel sayı olup olmadığını bulan program">
-      <change beforePath="$PROJECT_DIR$/src/TersUcgen/TersUcgen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TersUcgen/TersUcgen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AsalSayilar/AsalSayilar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,13 +54,13 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MukemmelSayi">
-    <configuration name="CinZodyagiHesaplayici" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CinZodyagiHesaplamaProgrami.CinZodyagiHesaplayici" />
+  <component name="RunManager" selected="Application.AsalSayilar">
+    <configuration name="AsalSayilar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AsalSayilar.AsalSayilar" />
       <module name="PatikaOdev" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CinZodyagiHesaplamaProgrami.*" />
+          <option name="PATTERN" value="AsalSayilar.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AsalSayilar" />
+        <item itemvalue="Application.UcakBiletiFiyatHesaplayici" />
         <item itemvalue="Application.MukemmelSayi" />
         <item itemvalue="Application.TersUcgen" />
         <item itemvalue="Application.MinMaxCalculator" />
-        <item itemvalue="Application.CinZodyagiHesaplayici" />
-        <item itemvalue="Application.UcakBiletiFiyatHesaplayici" />
       </list>
     </recent_temporary>
   </component>
