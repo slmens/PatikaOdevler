@@ -9,7 +9,7 @@ public class TersUcgen {
         System.out.print("Yapmak istediğiniz yıldızın kaç basamaklı olacağını giriniz: ");
         basamakSayisi = input.nextInt();
 
-        for (int t = basamakSayisi; t >= 0 ; t--) {
+        for (int t = basamakSayisi-1; t >= 0 ; t--) {
             for (int j = 0; j < (basamakSayisi - t); j++) {
                 System.out.print(" ");
             }
