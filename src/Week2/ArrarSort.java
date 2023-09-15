@@ -18,7 +18,7 @@ public class ArrarSort {
         // Kullanıcdan arrayin eleman sayısını alıyoruz
         arrayCount = scan.nextInt();
 
-        // Verilen eleman sayısı kadar arrayi kuruyoruz
+        // Verilen eleman sayısı kadar arrayi kuruyoruz.
         arr = new int[arrayCount];
 
         System.out.println("Dizinin elemanlarını giriniz...");
