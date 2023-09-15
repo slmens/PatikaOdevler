@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf0434a3-aaeb-4c6b-965b-f59c6e59ef05" name="Changes" comment="Ters Üçgen düzeltme">
+    <list default="true" id="bf0434a3-aaeb-4c6b-965b-f59c6e59ef05" name="Changes" comment="Recursive Pow">
+      <change afterPath="$PROJECT_DIR$/src/Week2/RecursivePrime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,9 +54,22 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RecursivePow">
+  <component name="RunManager" selected="Application.RecursivePrime">
     <configuration name="RecursivePow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week2.RecursivePow" />
+      <module name="PatikaOdev" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecursivePrime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week2.RecursivePrime" />
       <module name="PatikaOdev" />
       <extension name="coverage">
         <pattern>
@@ -87,13 +101,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dfdfadf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dfdfadf" />
-      <module name="PatikaOdev" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test" />
       <module name="PatikaOdev" />
@@ -103,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RecursivePrime" />
         <item itemvalue="Application.RecursivePow" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.TersUcgen" />
-        <item itemvalue="Application.dfdfadf" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694690003112</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Recursive Pow">
+      <option name="closed" value="true" />
+      <created>1694767393239</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1694767393239</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,6 +230,7 @@
     <MESSAGE value="1'den 100 e kadar olan asal sayıları yazan program" />
     <MESSAGE value="Verilen eleman sayısı kadar fibonacci sayısı yazdıran programı yazdım." />
     <MESSAGE value="Ters Üçgen düzeltme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ters Üçgen düzeltme" />
+    <MESSAGE value="Recursive Pow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Recursive Pow" />
   </component>
 </project>
