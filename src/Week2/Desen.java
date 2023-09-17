@@ -10,6 +10,9 @@ public class Desen {
         callMyself(number,number);
     }
 
+
+// Alttaki metot girilen sayıyı 0 veya negatif olana kadar 5 azaltıyor
+
     public static boolean callMyself(int i,int number ) {
         if (i <= 0) {
             desenIncrease(i,number);
@@ -19,6 +22,8 @@ public class Desen {
         callMyself(i -5,number);
         return false;
     }
+
+// Alttaki metot girilen sayıyı, main metodunda girilen sayıya eşit olana kadar 5 arttırıyor
 
     public static boolean desenIncrease(int i,int number) {
         System.out.print(i + " ");
