@@ -15,17 +15,16 @@ public class Main {
         //Employe sınıfındaki printMethod() metodunu çağırıyoruz. Bu metot nesnelerin değerlerini ekrana yazdırıyor
 
         System.out.println("----------------------");
-        employee.printMethod();
+        employee.toString();
         System.out.println("----------------------");
-        employee2.printMethod();
+        employee2.toString();
         System.out.println("----------------------");
-        employee3.printMethod();
+        employee3.toString();
         System.out.println("----------------------");
-        employee4.printMethod();
+        employee4.toString();
         System.out.println("----------------------");
-        employee5.printMethod();
+        employee5.toString();
         System.out.println("----------------------");
-        employee6.printMethod();
-
+        employee6.toString();
     }
 }

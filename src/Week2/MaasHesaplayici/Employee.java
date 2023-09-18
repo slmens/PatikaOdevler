@@ -57,7 +57,7 @@ public class Employee {
     }
 
     //Bu metot sadece değerleri ekrana yazdırmaya yarıyor
-    public void printMethod(){
+    public String toString(){
         System.out.println("Adı: " + this.name);
         System.out.println("Eski maaşı: " + this.salary + " TL");
         System.out.println("Çalışma saati: " + this.workHours);
@@ -66,6 +66,7 @@ public class Employee {
         System.out.println("Bonus: " + bonusAmount);
         System.out.println("Maaş artışı: " + salaryRaise);
         System.out.println("Vergi, bonus ve zamla beraber yeni maaş: " + totalSalary + " TL'dir.");
+        return null;
     }
 
 }
