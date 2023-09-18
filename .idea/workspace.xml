@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf0434a3-aaeb-4c6b-965b-f59c6e59ef05" name="Changes" comment="Maaş hesaplama programında değişiklik yaptım.">
-      <change afterPath="$PROJECT_DIR$/src/Week2/ArrayFrekans.java" afterDir="false" />
+    <list default="true" id="bf0434a3-aaeb-4c6b-965b-f59c6e59ef05" name="Changes" comment="Array Frekans">
+      <change afterPath="$PROJECT_DIR$/src/Week2/MatrisTranspozu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,15 +47,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/selim/Desktop/KOD/Patika/PatikaOdevler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/selim/Desktop/KOD/Patika/PatikaOdevler&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.ArrayFrekans">
+}</component>
+  <component name="RunManager" selected="Application.MatrisTranspozu">
     <configuration name="ArrarSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week2.ArrarSort" />
       <module name="PatikaOdev" />
@@ -108,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursivePrime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week2.RecursivePrime" />
+    <configuration name="MatrisTranspozu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week2.MatrisTranspozu" />
       <module name="PatikaOdev" />
       <extension name="coverage">
         <pattern>
@@ -123,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MatrisTranspozu" />
         <item itemvalue="Application.ArrayFrekans" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ArrarSort" />
         <item itemvalue="Application.Desen" />
-        <item itemvalue="Application.RecursivePrime" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695030557994</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Array Frekans">
+      <option name="closed" value="true" />
+      <created>1695044831929</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1695044831929</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -289,7 +297,8 @@
     <MESSAGE value="Array Sort" />
     <MESSAGE value="Maaş hesaplama programı yazdım" />
     <MESSAGE value="Maaş hesaplama programında değişiklik yaptım." />
-    <option name="LAST_COMMIT_MESSAGE" value="Maaş hesaplama programında değişiklik yaptım." />
+    <MESSAGE value="Array Frekans" />
+    <option name="LAST_COMMIT_MESSAGE" value="Array Frekans" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
