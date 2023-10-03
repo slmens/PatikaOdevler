@@ -7,8 +7,8 @@ public class MobilePhone implements Comparable<MobilePhone> {
         static TreeSet<MobilePhone> mobilePhones = new TreeSet<>();
 
         private final UUID id = UUID.randomUUID();
-        private final String realId = id.toString();
-        private int price,discountRate,stockAmount,memoryAmount,batteryMAH,RAM;
+        private final String realId = id.toString().substring(0,7);
+        private int price,stockAmount,discountRate,memoryAmount,batteryMAH,RAM;
         private String name,phoneColor;
         private Brand brandName;
         private double screenSize;
