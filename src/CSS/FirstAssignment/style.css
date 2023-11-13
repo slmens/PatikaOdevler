@@ -1,0 +1,24 @@
+.margin{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.center{
+    text-align: center;
+}
+
+.centerList{
+    list-style-position: inside
+}
+
+.mainHeader{
+    color: red;
+}
+
+.subHeader{
+    color: darkblue;
+}
+
+.links{
+    color: deepskyblue;
+}
