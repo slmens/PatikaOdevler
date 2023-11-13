@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    text-align: center;
+    margin: 15px 100px 15px 100px;
+}
+
+.top{
+    background-color: rgb(218, 218, 218);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.bottom{
+    margin-top: 6px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.searchBar{
+    margin: 10px auto 10px auto;
+    background-color: white;
+    border: 1px solid black;
+    width: 400px;
+    height: 25px;
+}
+
+.left{
+    background-color: #77f5cb;
+    width: 400px;
+    height: 80px;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 6px;
+}
+
+.mid{
+    background-color: rgb(105, 212, 176);
+    width: 400px;
+    height: 80px;
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.rigth{
+    background-color: rgb(82, 167, 138);
+    width: 400px;
+    height: 80px;
+    display: inline-block;
+    padding-top: 10px;
+}
