@@ -1,0 +1,40 @@
+.custom-nav-btn{
+    text-align: center;
+    width: 120px;
+    height: 43px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+.custom-nav{
+    background-color: #ffc017;
+}
+
+.custom-header-btn{
+    border-radius: 25px;
+}
+
+.header-img{
+    border-radius: 10%;
+}
+
+.side-footer-top{
+    text-decoration: none;
+    color: black;
+    background-color: aliceblue;
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.side-footer-bottom{
+    text-decoration: none;
+    color: black;
+    background-color: aliceblue;
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
