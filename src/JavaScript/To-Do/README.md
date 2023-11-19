@@ -1,1 +1,1 @@
-![todo](https://github.com/slmens/PatikaOdevler/assets/99343829/98d62c5b-4857-42dc-b3cb-bdf8ff25a485)
+![todo2](https://github.com/slmens/PatikaOdevler/assets/99343829/4b53d34f-4b12-4c3b-acbf-1454afa33e1d)
