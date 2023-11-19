@@ -56,42 +56,39 @@ function addTodo() {
 function handleDelete(event) {
     if (event.target.classList.contains("deletebtn")) {
         console.log("Delete button clicked");
-        let deletedId = event.target.id
+        let stringID = event.target.id
+        let numberID;
         let existendCount = localStorage.getItem("array-count")
         let finalCount = existendCount - 1
         if(finalCount < 0){
             finalCount = 0
         }
 
+        for (let char of stringID) {
+            if (!isNaN(parseInt(char))) {
+                numberID = char
+            }
+        }
+        console.log(numberID)
+
         let pseudoArr = localStorage.getItem("todo-array")
         let parsedPseudoArr = JSON.parse(pseudoArr)
+        let finalPseudoArr = [];
 
-        if (Array.isArray(parsedPseudoArr)) {
-            let finalPseudoArr = parsedPseudoArr.filter(item => `deletebtn-${item}-${parsedPseudoArr.indexOf(item)}` !== deletedId);
-
-            console.log(finalCount);
-            console.log(finalPseudoArr);
-
-            localStorage.setItem("todo-array", JSON.stringify(finalPseudoArr));
-            localStorage.setItem("array-count", finalCount);
-
-            loadPage();
-        } else {
-            console.log("Invalid data in localStorage");
+        
+        for(let i = 0; i<parsedPseudoArr.length; i++){
+            if(i != numberID){
+                finalPseudoArr.push(parsedPseudoArr[i])
+            }
         }
 
-        let finalPseudoArrr = JSON.stringify(finalPseudoArr)
+        console.log(finalCount);
+        console.log(finalPseudoArr);
 
-        console.log(finalCount)
-        console.log(finalPseudoArrr)
+        localStorage.setItem("todo-array", JSON.stringify(finalPseudoArr));
+        localStorage.setItem("array-count", finalCount);
 
-        localStorage.setItem("todo-array",finalPseudoArrr)
-        localStorage.setItem("array-count",finalCount)
-
-
-
-        loadPage()
-
+        loadPage();
     }
 }
 
