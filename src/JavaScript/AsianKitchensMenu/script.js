@@ -146,7 +146,7 @@ function loadKorea() {
 
   for (let i = 0; i < menu.length; i++) {
     if (menu[i].category === "Korea") {
-      const recipeDiv = document.createElement("div");
+    const recipeDiv = document.createElement("div");
 
     recipeDiv.classList.add(
       "menu-items",
@@ -245,7 +245,7 @@ function loadJapan() {
 
 function loadChina() {
   sectionCenter.innerHTML = '';
-  
+
   for (let i = 0; i < menu.length; i++) {
     if (menu[i].category === "China") {
       const recipeDiv = document.createElement("div");
