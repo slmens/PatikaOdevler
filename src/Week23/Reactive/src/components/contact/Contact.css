@@ -1,0 +1,144 @@
+#contactSection {
+  width: 100%;
+  height: full;
+  padding: 80px 0 80px 0;
+}
+
+#contactIntro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 95px;
+  padding-right: 95px;
+}
+
+#contactIntro h2 {
+  font-size: 30px;
+  color: #355493;
+  font-weight: 900;
+}
+
+#contactOrangeBox {
+  margin-top: 8px;
+  width: 90px;
+  height: 7px;
+  border-radius: 10px;
+  background-color: #f29c13;
+}
+
+#contactIntro p {
+  font-size: 1.2rem;
+  margin-top: 35px;
+  text-align: center;
+  color: black;
+  font-weight: 600;
+}
+
+#contactTextTop {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  margin-bottom: 35px;
+  gap: 50px;
+}
+
+#contactTextTop h3 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+#contactTextTop h5 {
+  font-size: 14px;
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+#contactTextBottom h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#contactBottom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-top: 90px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+#contactTextBottom input {
+  width: 100%;
+  background-color: #f0f8fe;
+  border: none;
+  padding: 10px 0px 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+#contactTextBottom textarea {
+  width: 100%;
+  background-color: #f0f8fe;
+  border: none;
+  padding: 10px 0px 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+#contactTextContainer {
+  padding: 0px 5vw 0px 5vw;
+}
+
+#contactMapContainer {
+  width: 100%;
+}
+
+#contactMapContainer iframe {
+  width: 100%;
+}
+
+@media (min-width: 1920px) {
+  #contactIntro h2 {
+    font-size: 40px;
+  }
+
+  #contactIntro p {
+    padding-left: 20vw;
+    padding-right: 20vw;
+  }
+
+  #contactBottom {
+    align-items: center;
+    justify-content: center;
+    padding: 0 10vw 0 10vw;
+  }
+
+  #contactTextBottom input {
+    width: 70%;
+  }
+
+  #contactTextBottom textarea {
+    width: 70%;
+  }
+
+  #contactTextBottom {
+    width: full;
+  }
+
+  #contactTextContainer {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #contactMapContainer {
+    width: fit-content;
+  }
+
+  #contactMapContainer iframe {
+    width: 30vw;
+  }
+}

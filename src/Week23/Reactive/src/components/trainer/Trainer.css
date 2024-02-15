@@ -1,0 +1,176 @@
+#trainersSection {
+  width: 100%;
+  height: full;
+  background-color: #f0f9ff;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+#trainersIntro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 95px;
+  padding-right: 95px;
+  margin-bottom: 50px;
+}
+
+#trainersIntro h2 {
+  font-size: 35px;
+  color: #355493;
+  font-weight: 900;
+}
+
+#trainersOrangeBox {
+  margin-top: 8px;
+  width: 90px;
+  height: 7px;
+  border-radius: 10px;
+  background-color: #f29c13;
+}
+
+#trainersIntro p {
+  font-size: 1.2rem;
+  margin-top: 35px;
+  text-align: center;
+  color: black;
+  font-weight: 600;
+}
+
+#trainersCardContainer {
+  width: full;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.trainerCard {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: full;
+  height: full;
+  margin-bottom: 80px;
+  z-index: 1;
+}
+
+.trainerCard img {
+  border-radius: 10px;
+  border: 3px solid #f29c13;
+  width: 420px;
+  z-index: 2;
+}
+
+.trainerVerticalFrame {
+  position: absolute;
+  border-radius: 5px;
+  height: 105%;
+  width: 30%;
+  transform: translatex(5%);
+  background-color: #355493;
+  z-index: -1;
+}
+
+.trainerHorizontalFrame {
+  position: absolute;
+  border-radius: 5px;
+  height: 30%;
+  transition: height 1s linear, transform 1s linear;
+  width: 105%;
+  background-color: #355493;
+  z-index: -1;
+}
+
+#trainerInfoCardContainer {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  display: none;
+}
+
+#trainerInfoBigSquare {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #355493;
+  color: white;
+  width: 60%;
+  height: 20%;
+  border-radius: 3px;
+  padding-bottom: 10px;
+  z-index: 3;
+}
+
+#trainerInfoBigSquare h3 {
+  font-size: 1.6rem;
+}
+
+#trainerInfoBackground {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #355493;
+  width: 75%;
+  height: 13%;
+  border-radius: 3px;
+}
+
+/* hover olunca display block yap veya flex işte */
+
+#trainerCard1:hover {
+  .trainerHorizontalFrame {
+    height: 45%;
+    transform: translateY(15%);
+    transition: transform 1.3s linear;
+  }
+
+  #trainerInfoCardContainer {
+    display: flex;
+  }
+}
+
+#trainerCard2:hover {
+  .trainerHorizontalFrame {
+    height: 45%;
+    transform: translateY(15%);
+    transition: transform 1.3s linear;
+  }
+
+  #trainerInfoCardContainer {
+    display: flex;
+  }
+}
+
+#trainerCard3:hover {
+  .trainerHorizontalFrame {
+    height: 45%;
+    transform: translateY(15%);
+    transition: transform 1.3s linear;
+  }
+
+  #trainerInfoCardContainer {
+    display: flex;
+  }
+}
+
+@media (min-width: 1920px) {
+  #trainersIntro p {
+    padding-left: 20vw;
+    padding-right: 20vw;
+  }
+
+  #trainersCardContainer {
+    gap: 80px;
+  }
+}

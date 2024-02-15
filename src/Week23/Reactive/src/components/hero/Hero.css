@@ -1,0 +1,200 @@
+#heroSection {
+  width: 100%;
+  height: full;
+  background-image: url("../../src/assets/hero-man.jpg");
+  background-position: 45%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+  color: white;
+  padding-bottom: 6vh;
+  padding-top: 150px;
+}
+
+.heroContainer {
+  padding: 0px 5vw 0px 5vw;
+}
+
+.heroTextContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.heroContainer h2 {
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  width: 35vw;
+  height: 5vh;
+  align-items: center;
+  text-align: center;
+  font-weight: 800;
+  border-radius: 7px;
+  padding: 4px 10px 4px 10px;
+  color: white;
+  background-color: #355493;
+}
+
+.heroContainer h1 {
+  font-size: 65px;
+  font-weight: 700;
+  text-shadow: 4px 2px 4px #333;
+}
+
+.heroContainer p {
+  padding: 5px 10px 5px 10px;
+  line-height: 2.2rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-shadow: 4px 2px 4px #333;
+}
+
+#heroButtonContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+#signUpButton {
+  color: white;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  text-align: start;
+  padding-left: 25px;
+  border-radius: 5px;
+  height: 65px;
+  background-color: #355493;
+}
+
+#detailsButton {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 2px solid white;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 800;
+  text-align: start;
+  padding-left: 25px;
+  border-radius: 5px;
+  height: 65px;
+}
+
+nav > ul {
+  display: none;
+}
+
+@media (min-width: 1920px) {
+  #heroSection {
+    padding-left: 14vw;
+    padding-right: 14vw;
+    width: 100%;
+    height: full;
+    background-image: url("../../src/assets/hero-man.jpg");
+    background-position: 45%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+    color: white;
+  }
+
+  .heroTextContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .heroContainer h2 {
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: center;
+    width: 10vw;
+    height: 3vh;
+    align-items: center;
+    text-align: center;
+    font-weight: 800;
+    border-radius: 7px;
+    padding: 20px 15px 20px 15px;
+    color: white;
+    background-color: #355493;
+  }
+
+  .heroContainer h1 {
+    padding-right: 400px;
+    font-size: 85px;
+    font-weight: 700;
+    text-shadow: 4px 2px 4px #333;
+    line-height: 100px;
+  }
+
+  .heroContainer p {
+    padding: 20px 35px 20px 35px;
+    line-height: 2.4rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-shadow: 4px 2px 4px #333;
+  }
+
+  #heroButtonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 50px;
+    padding-left: 45px;
+  }
+
+  #signUpButton {
+    color: white;
+    height: 75px;
+    border: none;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 15px 30px 15px 30px;
+    border-radius: 8px;
+    background-color: #355493;
+  }
+
+  #detailsButton {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 3px solid white;
+    height: 75px;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 15px 30px 15px 30px;
+    border-radius: 8px;
+  }
+
+  nav > ul {
+    display: flex;
+    padding-right: 12vw;
+    align-items: center;
+    gap: 35px;
+  }
+
+  nav > ul > li {
+    list-style: none;
+  }
+
+  nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  #btnLiJoinUs {
+    padding: 5px 10px 5px 10px;
+    background-color: #f29c13;
+    border-radius: 3px;
+  }
+}

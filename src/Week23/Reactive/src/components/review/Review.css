@@ -1,0 +1,115 @@
+#reviewSection {
+  background-color: #f1f9fe;
+  width: 100%;
+  height: full;
+  padding: 80px 0 80px 0;
+}
+
+#reviewIntro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 95px;
+  padding-right: 95px;
+}
+
+#reviewIntro h2 {
+  font-size: 30px;
+  color: #355493;
+  font-weight: 900;
+}
+
+#reviewOrangeBox {
+  margin-top: 8px;
+  width: 90px;
+  height: 7px;
+  border-radius: 10px;
+  background-color: #f29c13;
+}
+
+#reviewIntro p {
+  font-size: 1.2rem;
+  margin-top: 35px;
+  text-align: center;
+  color: black;
+  font-weight: 600;
+}
+
+#reviewBottom {
+  width: 100%;
+  height: full;
+  padding: 80px 25px 0px 25px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+
+.reviewCard {
+  width: 500px;
+}
+
+.reviewCardTop {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.reviewCardTop img {
+  border-radius: 50%;
+}
+
+.reviewCardBottom {
+  width: 100%;
+  position: relative;
+  padding: 15px 25px 15px 25px;
+  border-radius: 3px;
+  color: white;
+  background-color: #355493;
+}
+
+.reviewCardTopBottom {
+  margin-left: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.leftRibbon {
+  background-color: #35549388;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transform: translateY(-1%);
+  width: 50px;
+  height: 50px;
+  z-index: 44;
+  clip-path: polygon(100% 0, 0 0, 100% 100%);
+}
+
+.rightRibbon {
+  background-color: #35549388;
+  position: absolute;
+  top: 100%;
+  left: 100%;
+  transform: translate(-100%, -1%);
+  width: 50px;
+  height: 50px;
+  z-index: 44;
+  clip-path: polygon(100% 0, 0 0, 0 99%);
+}
+
+@media (min-width: 1920px) {
+  #reviewIntro p {
+    padding-left: 20vw;
+    padding-right: 20vw;
+  }
+
+  #reviewBottom {
+    padding: 50px 25px 0px 25px;
+    gap: 100px;
+  }
+}

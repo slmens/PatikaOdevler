@@ -1,0 +1,36 @@
+#footerSection {
+  background-color: #355592;
+  width: 100%;
+  height: full;
+  padding: 20px 20px 20px 20px;
+  color: white;
+}
+
+#footerBottomContainer {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footerBottomContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerBottomContainer h3 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.footerBottomContainer h4 {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+@media (min-width: 1920px) {
+  #footerSection {
+    padding: 20px 20vw 20px 20vw;
+  }
+}

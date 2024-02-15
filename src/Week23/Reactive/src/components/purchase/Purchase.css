@@ -1,0 +1,128 @@
+#purchaseSection {
+  width: 100%;
+  height: full;
+  padding-top: 90px;
+  padding-bottom: 70px;
+}
+
+#purchaseIntro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 95px;
+  padding-right: 95px;
+}
+
+#purchaseIntro h2 {
+  font-size: 30px;
+  color: #355493;
+  font-weight: 900;
+}
+
+#purchaseOrangeBox {
+  margin-top: 8px;
+  width: 90px;
+  height: 7px;
+  border-radius: 10px;
+  background-color: #f29c13;
+}
+
+#purchaseIntro p {
+  font-size: 1.2rem;
+  margin-top: 35px;
+  text-align: center;
+  color: black;
+  font-weight: 600;
+}
+
+#purchaseCardContainer {
+  width: 100%;
+  height: full;
+  margin-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.purchaseCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: full;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.6);
+}
+
+.purchaseCard img {
+  width: 400px;
+  border-radius: 5px;
+}
+
+.purchaseCard h3 {
+  font-size: 30px;
+}
+.purchaseCard h4 {
+  font-size: 20px;
+}
+.purchaseCard span {
+  text-decoration: line-through;
+}
+
+#shoppingCartContainer {
+  margin-top: 30px;
+  font-size: 20px;
+  padding: 0 40px 10px 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 1920px) {
+  #purchaseIntro h2 {
+    font-size: 40px;
+    color: #355493;
+    font-weight: 900;
+  }
+
+  #purchaseIntro p {
+    padding-left: 20vw;
+    padding-right: 20vw;
+  }
+
+  #purchaseCardContainer {
+    gap: 30px;
+  }
+
+  .purchaseCard {
+    width: 300px;
+    height: full;
+    border-radius: 5px;
+    margin-bottom: 0px;
+    box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.6);
+  }
+
+  .purchaseCard img {
+    width: 300px;
+    border-radius: 5px;
+  }
+
+  .purchaseCard h3 {
+    font-size: 25px;
+  }
+  .purchaseCard h4 {
+    font-size: 15px;
+  }
+
+  #shoppingCartContainer {
+    margin-top: 25px;
+    font-size: 20px;
+    padding: 0 30px 10px 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
