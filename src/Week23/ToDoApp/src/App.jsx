@@ -12,6 +12,7 @@ function App() {
   }
 
   function handleSubmit() {
+    event.preventDefault();
     setTodoList((prev) => [...prev, newTodo]);
     setNewTodo("");
     console.log(todoList);
