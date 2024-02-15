@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf0434a3-aaeb-4c6b-965b-f59c6e59ef05" name="Changes" comment="PatikaStore finished">
-      <change beforePath="$PROJECT_DIR$/src/Bootstrap/InstagramClone/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bootstrap/InstagramClone/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bootstrap/InstagramClone/style.css" beforeDir="false" />
-    </list>
+    <list default="true" id="bf0434a3-aaeb-4c6b-965b-f59c6e59ef05" name="Changes" comment="PatikaStore finished" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +49,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/selim/Desktop/KOD/Patika/PatikaOdevler"
+    "last_opened_file_path": "C:/Users/selim/Desktop/CallFriendApp/CallFriendApp/Backend"
   }
 }]]></component>
   <component name="RunManager" selected="Application.Week5.PatikaStore.Main">
